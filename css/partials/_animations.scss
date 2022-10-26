@@ -1,0 +1,26 @@
+
+.bluor-opacity{
+    opacity: 1;
+}
+
+//animação de bluor dos icones 
+.anime-aconlhimento{
+    animation: anime 2s ease-in-out infinite alternate-reverse;
+}
+.anime-pediatria{
+    animation: anime 2s ease-in-out 1s infinite alternate-reverse;
+}
+.anime-atendimento{
+    animation: anime 2s ease-in-out 1.5s infinite alternate-reverse;
+}
+.anime-duvidas{
+    animation: anime 2s ease-in-out 2s infinite alternate-reverse;
+}
+@keyframes anime{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

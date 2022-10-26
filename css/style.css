@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, summary {
+  font-family: "Inter", sans-serif;
+}
+
+h4, h5, p {
+  font-family: "Sora", sans-serif;
+}
+
+.bluor-opacity {
+  opacity: 1;
+}
+
+.anime-aconlhimento {
+  animation: anime 2s ease-in-out infinite alternate-reverse;
+}
+
+.anime-pediatria {
+  animation: anime 2s ease-in-out 1s infinite alternate-reverse;
+}
+
+.anime-atendimento {
+  animation: anime 2s ease-in-out 1.5s infinite alternate-reverse;
+}
+
+.anime-duvidas {
+  animation: anime 2s ease-in-out 2s infinite alternate-reverse;
+}
+
+@-webkit-keyframes anime {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes anime {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+html {
+  background-color: #EBEBEB;
+}
+
+body {
+  max-width: 450px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header .logo-hmbr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+@media only screen and (max-width: 370px) {
+  .header .logo-hmbr {
+    width: 40%;
+    margin-right: 2rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .header .logo-hmbr {
+    width: 34%;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+  }
+}
+
+.text-hero h3 {
+  margin-top: 0.8rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #393939;
+  font-weight: 400;
+  text-align: center;
+}
+@media only screen and (max-width: 350px) {
+  .text-hero h1 {
+    font-size: 22px;
+  }
+  .text-hero h3 {
+    font-size: 12px;
+  }
+  .text-hero p {
+    font-size: 10px;
+  }
+}
+
+.texto-linear {
+  margin-top: 4rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.05em;
+  background: linear-gradient(352.32deg, rgba(0, 0, 0, 0.2) 4.95%, rgba(0, 0, 0, 0.02) 121.74%), linear-gradient(360deg, #D74500 0%, #F29100 125%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 3.5rem;
+}
+
+.sliders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.8rem;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#item__prev {
+  scale: 0.6;
+  color: #D74500;
+}
+@media only screen and (max-width: 350px) {
+  #item__prev {
+    scale: 0.4;
+  }
+}
+
+#item__next {
+  scale: 0.6;
+  color: #D74500;
+}
+@media only screen and (max-width: 350px) {
+  #item__next {
+    scale: 0.4;
+  }
+}
+
+.home-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.6rem;
+}
+@media only screen and (max-width: 350px) {
+  .home-icons {
+    width: 85%;
+    margin-left: 1.6rem;
+    margin-top: 2.4rem;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .home-icons {
+    width: 90%;
+    margin-left: 1.2rem;
+    margin-top: 2.4rem;
+  }
+}
+
+.section-sala-lilas {
+  display: flex;
+  margin-top: 2rem;
+}
+.section-sala-lilas .sala-lilas h1 {
+  font-size: 22px;
+}
+.section-sala-lilas .sala-lilas h3 {
+  margin-top: 2rem;
+  text-align: start;
+  margin-left: 1.4rem;
+  font-size: 12px;
+}
+.section-sala-lilas .sala-lilas h2 {
+  font-size: 20px;
+  margin-top: 0.5rem;
+  text-align: start;
+  margin-left: 1.4rem;
+}
+.section-sala-lilas .sala-lilas p {
+  width: 80%;
+  font-size: 12px;
+  margin-top: 0.4rem;
+  margin-left: 1.4rem;
+  text-align: start;
+}
+.section-sala-lilas .img-sala-lilas {
+  margin-top: 2.4rem;
+  margin-right: 1.4rem;
+}
+@media only screen and (max-width: 370px) {
+  .section-sala-lilas .img-sala-lilas {
+    margin-top: 4rem;
+    width: 45%;
+  }
+}
+
+.section-aten-pediatrico {
+  display: flex;
+  margin-top: 2rem;
+}
+.section-aten-pediatrico .aten-pediatrico h1 {
+  font-size: 22px;
+}
+.section-aten-pediatrico .aten-pediatrico h3 {
+  margin-top: 2rem;
+  text-align: end;
+  margin-right: 1.6rem;
+  font-size: 12px;
+}
+.section-aten-pediatrico .aten-pediatrico h2 {
+  font-size: 20px;
+  margin-top: 0.5rem;
+  text-align: end;
+  margin-right: 1.6rem;
+}
+.section-aten-pediatrico .aten-pediatrico p {
+  width: 90%;
+  font-size: 12px;
+  margin-top: 0.4rem;
+  margin-right: 1.6rem;
+  text-align: end;
+}
+.section-aten-pediatrico .img-aten-pediatrico {
+  margin-top: 2.4rem;
+  margin-left: 1.2rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-aten-pediatrico .img-aten-pediatrico {
+    margin: 0;
+    scale: 0.9;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .section-aten-pediatrico .img-aten-pediatrico {
+    margin-top: 2.8rem;
+    width: 35%;
+  }
+}
+
+.section-aten-rapido {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.section-aten-rapido .aten-rapido h1 {
+  font-size: 22px;
+}
+.section-aten-rapido .aten-rapido h3 {
+  margin-top: 2rem;
+  text-align: start;
+  margin-left: 1.4rem;
+  font-size: 12px;
+}
+.section-aten-rapido .aten-rapido h2 {
+  font-size: 20px;
+  margin-top: 0.5rem;
+  text-align: start;
+  margin-left: 1.4rem;
+}
+.section-aten-rapido .aten-rapido p {
+  width: 80%;
+  font-size: 12px;
+  margin-top: 0.4rem;
+  margin-left: 1.4rem;
+  text-align: start;
+}
+.section-aten-rapido .img-aten-rapido {
+  margin-top: 4.8rem;
+  margin-right: 1.6rem;
+}
+@media only screen and (max-width: 370px) {
+  .section-aten-rapido .img-aten-rapido {
+    margin-right: 1rem;
+    scale: 0.95;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .section-aten-rapido .img-aten-rapido {
+    margin-top: 8rem;
+    scale: 0.9;
+  }
+}
+
+.faq {
+  justify-content: center;
+  align-items: center;
+}
+.faq h1 {
+  font-size: 22px;
+  color: #303030;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+.faq details {
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.2rem 0.5rem 1.2rem;
+}
+.faq details summary {
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  border-bottom: 1.5px solid #D74500;
+  border-right: 1.5px solid #D74500;
+  box-shadow: 3px 3px 10px rgba(102, 102, 102, 0.15);
+  padding: 0.5rem;
+  border-radius: 0.18rem;
+}
+.faq details summary:active {
+  transform: scale(0.95);
+}
+.faq details p {
+  margin-top: 0.6rem;
+  font-size: 12px;
+  color: #131313;
+  letter-spacing: 0.03rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  border: 1px solid #707070;
+  box-shadow: 0px 1px 10px rgba(65, 65, 65, 0.1);
+}
+
+.hospital-referencia {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.8rem;
+}
+
+.img-maps {
+  display: flex;
+  margin: 3rem 1.8rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.img-maps .text-maps {
+  font-size: 10px;
+  text-align: end;
+  line-height: 160%;
+  letter-spacing: 0.02rem;
+}
+
+.container-footer {
+  display: flex;
+  width: 100%;
+  height: 3.8rem;
+  margin-top: 2.8rem;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  background-color: #D74500;
+  justify-content: center;
+}
+.copyright p {
+  font-size: 10px;
+  text-align: center;
+  line-height: 2rem;
+  color: #EBEBEB;
+}/*# sourceMappingURL=style.css.map */
