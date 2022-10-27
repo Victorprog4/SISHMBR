@@ -15,8 +15,10 @@ body{
 }
 
 .pre-carregamento{
+    position: relative;
+    top: 0;
+    left: 0;
     background-color: #FFFFFF;
-
     transition: 0.5s;
     display: flex;
     align-items: center;
