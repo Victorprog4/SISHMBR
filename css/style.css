@@ -354,7 +354,7 @@ body {
 
 .section-orto {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 2.4rem;
   justify-content: space-between;
 }
 .section-orto .orto h1 {
@@ -380,7 +380,7 @@ body {
   text-align: start;
 }
 .section-orto .img-orto {
-  margin-top: 3.4rem;
+  margin-top: 3rem;
   margin-right: 1.6rem;
 }
 @media only screen and (max-width: 370px) {
