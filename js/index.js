@@ -6,3 +6,13 @@ var swiper = new Swiper(".swiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+const pre_carremento = document.querySelector(".pre-carregamento");
+
+function preCarregamento(){
+    pre_carremento.style.opacity = "0";
+
+    setTimeout(() => {
+        pre_carremento.style.display = "none";
+    }, 500);
+}

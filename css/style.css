@@ -12,6 +12,23 @@ h4, h5, p {
   font-family: "Sora", sans-serif;
 }
 
+@-webkit-keyframes efeito {
+  0% {
+    box-shadow: 0 0 0 0 #D74500;
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+}
+
+@keyframes efeito {
+  0% {
+    box-shadow: 0 0 0 0 #D74500;
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+}
 .bluor-opacity {
   opacity: 1;
 }
@@ -55,6 +72,26 @@ html {
 
 body {
   max-width: 450px;
+}
+
+.pre-carregamento {
+  width: 100%;
+  min-height: 100vh;
+  position: fixed;
+  background-color: #FFFFFF;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.efeito-carregamento {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #D74500;
+  border-radius: 100%;
+  -webkit-animation: efeito 0.5s infinite;
+          animation: efeito 0.5s infinite;
 }
 
 .header {

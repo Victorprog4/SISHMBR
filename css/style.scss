@@ -14,6 +14,27 @@ body{
     max-width: 450px;
 }
 
+.pre-carregamento{
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    background-color: #FFFFFF;
+
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.efeito-carregamento{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #D74500;
+    border-radius: 100%;
+
+    animation: efeito 0.5s infinite;
+}
+
 .header{
     width: 100%;
     display: flex;
