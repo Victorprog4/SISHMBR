@@ -78,20 +78,19 @@ body {
   width: 100%;
   min-height: 100vh;
   position: fixed;
-  background-color: #FFFFFF;
+  top: 0;
+  left: 0;
+  background-color: dodgerblue;
   transition: 0.5s;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.efeito-carregamento {
-  width: 1.2rem;
-  height: 1.2rem;
-  background-color: #D74500;
+.pre-carregamento .efeito-carregamento {
+  width: 35px;
+  height: 35px;
+  background-color: white;
   border-radius: 100%;
-  -webkit-animation: efeito 0.5s infinite;
-          animation: efeito 0.5s infinite;
 }
 
 .header {
