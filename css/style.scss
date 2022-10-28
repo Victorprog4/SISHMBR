@@ -20,7 +20,6 @@ body{
     justify-content: space-between;
 
     .logo-hmbr{
-        //border: 5px solid greenyellow;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -149,6 +148,10 @@ body{
             margin-top: .5rem;
             text-align: start;
             margin-left: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
         }
         p{
             width: 80%;
@@ -161,6 +164,11 @@ body{
                 font-size: 10px;
                 font-weight: bold;
             }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
+            }
         }
         
     }
@@ -169,7 +177,7 @@ body{
         margin-right: 1.4rem;
 
         @media only screen and (max-width: 370px){
-            margin-top: 4rem;
+            margin-top: 2rem;
             width: 45%;
         }
         @media only screen and (max-width: 320px){
@@ -194,6 +202,10 @@ body{
             margin-top: .5rem;
             text-align: end;
             margin-right: 1.6rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
         }
         p{
             width: 90%;
@@ -204,6 +216,11 @@ body{
 
             span{
                 font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
             }
         }
         
@@ -241,6 +258,10 @@ body{
             margin-top: .5rem;
             text-align: start;
             margin-left: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
         }
         p{
             width: 80%;
@@ -251,6 +272,11 @@ body{
 
             span{
                 font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
             }
         }
         
@@ -327,9 +353,6 @@ body{
     margin-top: 2.4rem;
     justify-content: space-between;
     .orto{
-        h1{
-            font-size: 18px;
-        }
         h3{
             margin-top: 2rem;
             text-align: start;
@@ -341,6 +364,10 @@ body{
             margin-top: .5rem;
             text-align: start;
             margin-left: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
         }
         p{
             width: 78%;
@@ -351,6 +378,11 @@ body{
 
             span{
                 font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
             }
         }
         
@@ -375,10 +407,8 @@ body{
     margin-top: 2rem;
     margin-bottom: 6.2rem;
     justify-content: space-between;
+
     .buco-maxilo{
-        h1{
-            font-size: 18px;
-        }
         h3{
             margin-top: 2rem;
             text-align: end;
@@ -390,13 +420,23 @@ body{
             margin-top: .5rem;
             text-align: end;
             margin-right: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
+            
         }
         p{
-            width: 90%;
+            width: 88%;
             font-size: 12px;
             margin-top: .4rem;
             margin-right: 1.6rem;
             text-align: end;
+
+        @media only screen and (max-width: 320px){
+            margin-top: .8rem;
+            font-size: 10px;
+            }
         }
         
     }
@@ -405,15 +445,8 @@ body{
         margin-left: 1.2rem;
     
         @media only screen and (max-width: 320px){
-            margin: 0;
-            scale: .9;
+            margin-top: 4.8rem;
         }
-
-        @media only screen and (max-width: 320px){
-            margin-top: 6.4rem;
-            scale: .8;
-        }
-
     }
 }
 
