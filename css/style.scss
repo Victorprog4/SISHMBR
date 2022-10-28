@@ -450,6 +450,9 @@ body{
 
             &:active{
                 transform: scale(0.95);
+            }
+
+            &:focus{
                 background-color: #D74500;
                 color: #EBEBEB;
             }

@@ -503,6 +503,8 @@ body {
 }
 .faq details summary:active {
   transform: scale(0.95);
+}
+.faq details summary:focus {
   background-color: #D74500;
   color: #EBEBEB;
 }
