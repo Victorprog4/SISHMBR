@@ -163,7 +163,7 @@ body {
     scale: 0.4;
   }
 }
-#item__prev::active {
+#item__prev:active {
   background: transparent;
 }
 
