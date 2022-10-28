@@ -71,6 +71,8 @@ html {
 }
 
 body {
+  justify-content: center;
+  align-items: center;
   max-width: 450px;
 }
 
@@ -162,9 +164,6 @@ body {
   #item__prev {
     scale: 0.4;
   }
-}
-#item__prev:active {
-  background: transparent;
 }
 
 #item__next {

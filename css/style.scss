@@ -11,6 +11,8 @@ html{
     background-color: #EBEBEB;
 }
 body{
+    justify-content: center;
+    align-items: center;
     max-width: 450px;
 }
 
@@ -105,10 +107,6 @@ body{
     @media only screen and (max-width: 350px){
         scale: .4;
        }
-    
-    &:active{
-        background: transparent;
-    }
 }
 #item__next{
     scale: .6;
