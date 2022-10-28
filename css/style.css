@@ -163,6 +163,9 @@ body {
     scale: 0.4;
   }
 }
+#item__prev::active {
+  background: transparent;
+}
 
 #item__next {
   scale: 0.6;
