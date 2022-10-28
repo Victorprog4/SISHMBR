@@ -555,7 +555,6 @@ body {
   align-items: center;
 }
 .maps-3d details {
-  margin-top: 6rem;
   text-align: center;
   color: #D74500;
 }
@@ -571,6 +570,7 @@ body {
 }
 .maps-3d details summary:focus {
   background-color: #D74500;
+  border-color: #D74500;
   color: #EBEBEB;
   border: none;
 }
