@@ -561,6 +561,37 @@ body {
   border: 1px solid #707070;
   box-shadow: 0px 1px 10px rgba(65, 65, 65, 0.1);
 }
+.faq details .title-maps-semus {
+  padding: 0.3rem 0.8rem;
+  color: #303030;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 300;
+  border: 1px solid #404040;
+  border-radius: 0.2rem;
+  margin: 1rem 0;
+}
+.faq details .title-maps-semus:focus {
+  background-color: #D74500;
+  border-color: #D74500;
+  color: #EBEBEB;
+  border: none;
+}
+.faq details .link-hiv {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  background: linear-gradient(352.32deg, rgba(0, 0, 0, 0.2) 4.95%, rgba(0, 0, 0, 0.02) 121.74%), linear-gradient(360deg, #D74500 0%, #F29100 125%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 1.4rem;
+  padding: 0.32rem;
+  border-radius: 0.28rem;
+  border: 1px solid #D74500;
+}
+.faq details .padding-bottom-p {
+  padding: 1rem;
+}
 
 .link-faq {
   text-decoration: none;
