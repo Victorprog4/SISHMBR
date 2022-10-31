@@ -135,7 +135,7 @@ body {
 .title {
   font-size: 28px;
   text-transform: uppercase;
-  color: #303030;
+  color: #393939;
   font-weight: 600;
   text-align: center;
   margin-top: 3.5rem;
@@ -518,7 +518,7 @@ body {
 }
 .faq h1 {
   font-size: 22px;
-  color: #303030;
+  color: #393939;
   text-align: center;
   margin-bottom: 1.4rem;
 }
@@ -563,7 +563,7 @@ body {
 }
 .faq details .title-maps-semus {
   padding: 0.3rem 0.8rem;
-  color: #303030;
+  color: #393939;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 300;
@@ -633,7 +633,7 @@ body {
 }
 .maps-3d details summary {
   padding: 0.3rem 0.8rem;
-  color: #303030;
+  color: #393939;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 300;
@@ -670,4 +670,5 @@ body {
   text-align: center;
   line-height: 2rem;
   color: #EBEBEB;
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
