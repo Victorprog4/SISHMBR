@@ -440,7 +440,7 @@ body {
   background-clip: text;
 }
 
-.text-hero h3 {
+.text-hero h2 {
   margin-top: 0.8rem;
   font-size: 16px;
   text-transform: uppercase;
@@ -452,7 +452,7 @@ body {
   .text-hero h1 {
     font-size: 22px;
   }
-  .text-hero h3 {
+  .text-hero h2 {
     font-size: 12px;
   }
   .text-hero p {
