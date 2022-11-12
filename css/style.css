@@ -12,6 +12,23 @@ h4, h5, p {
   font-family: "Sora", sans-serif;
 }
 
+@-webkit-keyframes efeito {
+  0% {
+    box-shadow: 0 0 0 0 #D74500;
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+}
+
+@keyframes efeito {
+  0% {
+    box-shadow: 0 0 0 0 #D74500;
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+}
 .bluor-opacity {
   opacity: 1;
 }
@@ -118,7 +135,7 @@ body {
 .title {
   font-size: 28px;
   text-transform: uppercase;
-  color: #303030;
+  color: #393939;
   font-weight: 600;
   text-align: center;
   margin-top: 3.5rem;
@@ -181,9 +198,7 @@ body {
 .section-sala-lilas {
   display: flex;
   margin-top: 2rem;
-}
-.section-sala-lilas .sala-lilas h1 {
-  font-size: 22px;
+  justify-content: space-between;
 }
 .section-sala-lilas .sala-lilas h3 {
   margin-top: 2rem;
@@ -192,10 +207,15 @@ body {
   font-size: 12px;
 }
 .section-sala-lilas .sala-lilas h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0.5rem;
   text-align: start;
   margin-left: 1.4rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-sala-lilas .sala-lilas h2 {
+    font-size: 18px;
+  }
 }
 .section-sala-lilas .sala-lilas p {
   width: 80%;
@@ -204,23 +224,36 @@ body {
   margin-left: 1.4rem;
   text-align: start;
 }
+.section-sala-lilas .sala-lilas p span {
+  font-size: 10px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 370px) {
+  .section-sala-lilas .sala-lilas p {
+    margin-top: 0.8rem;
+    font-size: 10px;
+  }
+}
 .section-sala-lilas .img-sala-lilas {
   margin-top: 2.4rem;
   margin-right: 1.4rem;
 }
 @media only screen and (max-width: 370px) {
   .section-sala-lilas .img-sala-lilas {
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 45%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .section-sala-lilas .img-sala-lilas {
+    scale: 0.9;
   }
 }
 
 .section-aten-pediatrico {
   display: flex;
   margin-top: 2rem;
-}
-.section-aten-pediatrico .aten-pediatrico h1 {
-  font-size: 22px;
+  justify-content: space-between;
 }
 .section-aten-pediatrico .aten-pediatrico h3 {
   margin-top: 2rem;
@@ -229,10 +262,15 @@ body {
   font-size: 12px;
 }
 .section-aten-pediatrico .aten-pediatrico h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0.5rem;
   text-align: end;
   margin-right: 1.6rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-aten-pediatrico .aten-pediatrico h2 {
+    font-size: 18px;
+  }
 }
 .section-aten-pediatrico .aten-pediatrico p {
   width: 90%;
@@ -241,6 +279,15 @@ body {
   margin-right: 1.6rem;
   text-align: end;
 }
+.section-aten-pediatrico .aten-pediatrico p span {
+  font-weight: bold;
+}
+@media only screen and (max-width: 370px) {
+  .section-aten-pediatrico .aten-pediatrico p {
+    margin-top: 0.8rem;
+    font-size: 10px;
+  }
+}
 .section-aten-pediatrico .img-aten-pediatrico {
   margin-top: 2.4rem;
   margin-left: 1.2rem;
@@ -248,7 +295,7 @@ body {
 @media only screen and (max-width: 320px) {
   .section-aten-pediatrico .img-aten-pediatrico {
     margin: 0;
-    scale: 0.9;
+    scale: 0.8;
   }
 }
 @media only screen and (max-width: 370px) {
@@ -261,10 +308,7 @@ body {
 .section-aten-rapido {
   display: flex;
   margin-top: 2rem;
-  margin-bottom: 5rem;
-}
-.section-aten-rapido .aten-rapido h1 {
-  font-size: 22px;
+  justify-content: space-between;
 }
 .section-aten-rapido .aten-rapido h3 {
   margin-top: 2rem;
@@ -273,10 +317,15 @@ body {
   font-size: 12px;
 }
 .section-aten-rapido .aten-rapido h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0.5rem;
   text-align: start;
   margin-left: 1.4rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-aten-rapido .aten-rapido h2 {
+    font-size: 18px;
+  }
 }
 .section-aten-rapido .aten-rapido p {
   width: 80%;
@@ -284,6 +333,15 @@ body {
   margin-top: 0.4rem;
   margin-left: 1.4rem;
   text-align: start;
+}
+.section-aten-rapido .aten-rapido p span {
+  font-weight: bold;
+}
+@media only screen and (max-width: 370px) {
+  .section-aten-rapido .aten-rapido p {
+    margin-top: 0.8rem;
+    font-size: 10px;
+  }
 }
 .section-aten-rapido .img-aten-rapido {
   margin-top: 4.8rem;
@@ -302,13 +360,165 @@ body {
   }
 }
 
+.section-clinico-geral {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.section-clinico-geral .clinico-geral h3 {
+  margin-top: 2rem;
+  text-align: end;
+  margin-right: 1.2rem;
+  font-size: 12px;
+}
+@media only screen and (max-width: 320px) {
+  .section-clinico-geral .clinico-geral h3 {
+    font-size: 10px;
+  }
+}
+.section-clinico-geral .clinico-geral h2 {
+  font-size: 18px;
+  margin-top: 0.5rem;
+  text-align: end;
+  margin-right: 1.2rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-clinico-geral .clinico-geral h2 {
+    font-size: 16px;
+  }
+}
+.section-clinico-geral .clinico-geral p {
+  width: 90%;
+  font-size: 11px;
+  margin-top: 0.4rem;
+  margin-right: 1.2rem;
+  text-align: end;
+}
+.section-clinico-geral .img-clinico-geral {
+  margin-top: 2.4rem;
+  margin-left: 1.2rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-clinico-geral .img-clinico-geral {
+    margin-top: 2rem;
+    scale: 0.8;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .section-clinico-geral .img-clinico-geral {
+    margin-top: 2.8rem;
+    width: 35%;
+  }
+}
+
+.section-orto {
+  display: flex;
+  margin-top: 2.4rem;
+  justify-content: space-between;
+}
+.section-orto .orto h3 {
+  margin-top: 2rem;
+  text-align: start;
+  margin-left: 1.4rem;
+  font-size: 12px;
+}
+.section-orto .orto h2 {
+  font-size: 20px;
+  margin-top: 0.5rem;
+  text-align: start;
+  margin-left: 1.4rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-orto .orto h2 {
+    font-size: 18px;
+  }
+}
+.section-orto .orto p {
+  width: 78%;
+  font-size: 12px;
+  margin-top: 0.4rem;
+  margin-left: 1.4rem;
+  text-align: start;
+}
+.section-orto .orto p span {
+  font-weight: bold;
+}
+@media only screen and (max-width: 370px) {
+  .section-orto .orto p {
+    margin-top: 0.8rem;
+    font-size: 10px;
+  }
+}
+.section-orto .img-orto {
+  margin-top: 3rem;
+  margin-right: 1.6rem;
+}
+@media only screen and (max-width: 370px) {
+  .section-orto .img-orto {
+    margin-right: 1rem;
+    scale: 0.95;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .section-orto .img-orto {
+    margin-top: 4.8rem;
+    scale: 0.8;
+  }
+}
+
+.section-buco-maxilo {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 6.2rem;
+  justify-content: space-between;
+}
+.section-buco-maxilo .buco-maxilo h3 {
+  margin-top: 2rem;
+  text-align: end;
+  margin-right: 1.6rem;
+  font-size: 12px;
+}
+.section-buco-maxilo .buco-maxilo h2 {
+  font-size: 20px;
+  margin-top: 0.5rem;
+  text-align: end;
+  margin-right: 1.4rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-buco-maxilo .buco-maxilo h2 {
+    font-size: 18px;
+  }
+}
+.section-buco-maxilo .buco-maxilo p {
+  width: 88%;
+  font-size: 12px;
+  margin-top: 0.4rem;
+  margin-right: 1.6rem;
+  text-align: end;
+}
+@media only screen and (max-width: 320px) {
+  .section-buco-maxilo .buco-maxilo p {
+    margin-top: 0.8rem;
+    font-size: 10px;
+  }
+}
+.section-buco-maxilo .img-buco-maxilo {
+  margin-top: 3rem;
+  margin-left: 1.2rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-buco-maxilo .img-buco-maxilo {
+    margin-top: 4.8rem;
+  }
+}
+
 .faq {
   justify-content: center;
   align-items: center;
 }
 .faq h1 {
   font-size: 22px;
-  color: #303030;
+  color: #393939;
   text-align: center;
   margin-bottom: 1.4rem;
 }
@@ -318,6 +528,7 @@ body {
   margin: 0 1.2rem 0.5rem 1.2rem;
 }
 .faq details summary {
+  cursor: pointer;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.03rem;
@@ -327,8 +538,17 @@ body {
   padding: 0.5rem;
   border-radius: 0.18rem;
 }
+@media only screen and (max-width: 320px) {
+  .faq details summary {
+    font-size: 12px;
+  }
+}
 .faq details summary:active {
   transform: scale(0.95);
+}
+.faq details summary:focus {
+  background-color: #D74500;
+  color: #EBEBEB;
 }
 .faq details p {
   margin-top: 0.6rem;
@@ -340,6 +560,47 @@ body {
   padding: 0.5rem;
   border: 1px solid #707070;
   box-shadow: 0px 1px 10px rgba(65, 65, 65, 0.1);
+}
+.faq details .title-maps-semus {
+  padding: 0.3rem 0.8rem;
+  color: #393939;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 300;
+  border: 1px solid #404040;
+  border-radius: 0.2rem;
+  margin: 1rem 0;
+}
+.faq details .title-maps-semus:focus {
+  background-color: #D74500;
+  border-color: #D74500;
+  color: #EBEBEB;
+  border: none;
+}
+.faq details .link-hiv {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  background: linear-gradient(352.32deg, rgba(0, 0, 0, 0.2) 4.95%, rgba(0, 0, 0, 0.02) 121.74%), linear-gradient(360deg, #D74500 0%, #F29100 125%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 1.4rem;
+  padding: 0.32rem;
+  border-radius: 0.28rem;
+  border: 1px solid #D74500;
+}
+.faq details .padding-bottom-p {
+  padding: 1rem;
+}
+
+.link-faq {
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  background: linear-gradient(352.32deg, rgba(0, 0, 0, 0.2) 4.95%, rgba(0, 0, 0, 0.02) 121.74%), linear-gradient(360deg, #D74500 0%, #F29100 125%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hospital-referencia {
@@ -361,11 +622,37 @@ body {
   letter-spacing: 0.02rem;
 }
 
+.maps-3d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maps-3d details {
+  text-align: center;
+  color: #D74500;
+}
+.maps-3d details summary {
+  padding: 0.3rem 0.8rem;
+  color: #393939;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 300;
+  border: 1px solid #404040;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+.maps-3d details summary:focus {
+  background-color: #D74500;
+  border-color: #D74500;
+  color: #EBEBEB;
+  border: none;
+}
+
 .container-footer {
   display: flex;
   width: 100%;
   height: 3.8rem;
-  margin-top: 2.8rem;
+  margin-top: 1.6rem;
   background-color: #FFFFFF;
   justify-content: space-around;
   align-items: center;
@@ -383,4 +670,5 @@ body {
   text-align: center;
   line-height: 2rem;
   color: #EBEBEB;
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */

@@ -6,13 +6,13 @@
 
 @import './partials/tipografia';
 @import './partials/animations';
+@import './partials/colors';
 
 html{
-    background-color: #EBEBEB;
+    background-color: $background;
 }
 body{
     max-width: 450px;
-    //border: 1px solid red;
 }
 
 .header{
@@ -21,7 +21,6 @@ body{
     justify-content: space-between;
 
     .logo-hmbr{
-        //border: 5px solid greenyellow;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -44,7 +43,7 @@ body{
         margin-top: .8rem;
         font-size: 16px;
         text-transform: uppercase;
-        color: #393939;
+        color: $color-title;
         font-weight: 400;
         text-align: center;
     }
@@ -71,7 +70,7 @@ body{
     letter-spacing: 0.050em;
     background: linear-gradient(352.32deg, rgba(0, 0, 0, 0.2) 4.95%, 
     rgba(0, 0, 0, 0.02) 121.74%), 
-    linear-gradient(360deg, #D74500 0%, #F29100 125%);
+    linear-gradient(360deg, $primary-color 0%, $secundary-color 125%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -80,7 +79,7 @@ body{
 .title{
     font-size: 28px;
     text-transform: uppercase;
-    color: #303030;
+    color: $color-title;
     font-weight: 600;
     text-align: center;
     margin-top: 3.5rem;
@@ -101,7 +100,7 @@ body{
 
 #item__prev{
     scale: .6;
-    color: #D74500;
+    color: $primary-color;
 
     @media only screen and (max-width: 350px){
         scale: .4;
@@ -109,7 +108,7 @@ body{
 }
 #item__next{
     scale: .6;
-    color: #D74500;
+    color: $primary-color;
 
     @media only screen and (max-width: 350px){
      scale: .4;
@@ -137,10 +136,8 @@ body{
 .section-sala-lilas{
     display: flex;
     margin-top: 2rem;
+    justify-content: space-between;
     .sala-lilas{
-        h1{
-            font-size: 22px;
-        }
         h3{
             margin-top: 2rem;
             text-align: start;
@@ -148,10 +145,14 @@ body{
             font-size: 12px;
         }
         h2{
-            font-size: 20px;
+            font-size: 18px;
             margin-top: .5rem;
             text-align: start;
             margin-left: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
         }
         p{
             width: 80%;
@@ -159,6 +160,16 @@ body{
             margin-top: .4rem;
             margin-left: 1.4rem;
             text-align: start;
+
+            span{
+                font-size: 10px;
+                font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
+            }
         }
         
     }
@@ -167,8 +178,11 @@ body{
         margin-right: 1.4rem;
 
         @media only screen and (max-width: 370px){
-            margin-top: 4rem;
+            margin-top: 2rem;
             width: 45%;
+        }
+        @media only screen and (max-width: 320px){
+            scale: .9;
         }
     }
 }
@@ -176,10 +190,8 @@ body{
 .section-aten-pediatrico{
     display: flex;
     margin-top: 2rem;
+    justify-content: space-between;
     .aten-pediatrico{
-        h1{
-            font-size: 22px;
-        }
         h3{
             margin-top: 2rem;
             text-align: end;
@@ -187,10 +199,14 @@ body{
             font-size: 12px;
         }
         h2{
-            font-size: 20px;
+            font-size: 18px;
             margin-top: .5rem;
             text-align: end;
             margin-right: 1.6rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
         }
         p{
             width: 90%;
@@ -198,6 +214,15 @@ body{
             margin-top: .4rem;
             margin-right: 1.6rem;
             text-align: end;
+
+            span{
+                font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
+            }
         }
         
     }
@@ -207,7 +232,7 @@ body{
     
         @media only screen and (max-width: 320px){
             margin: 0;
-            scale: .9;
+            scale: .8;
         }
 
         @media only screen and (max-width: 370px){
@@ -221,11 +246,8 @@ body{
 .section-aten-rapido{
     display: flex;
     margin-top: 2rem;
-    margin-bottom: 5rem;
+    justify-content: space-between;
     .aten-rapido{
-        h1{
-            font-size: 22px;
-        }
         h3{
             margin-top: 2rem;
             text-align: start;
@@ -233,10 +255,14 @@ body{
             font-size: 12px;
         }
         h2{
-            font-size: 20px;
+            font-size: 18px;
             margin-top: .5rem;
             text-align: start;
             margin-left: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
         }
         p{
             width: 80%;
@@ -244,6 +270,15 @@ body{
             margin-top: .4rem;
             margin-left: 1.4rem;
             text-align: start;
+
+            span{
+                font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
+            }
         }
         
     }
@@ -262,13 +297,167 @@ body{
     }
 }
 
+.section-clinico-geral{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+
+    .clinico-geral{
+        h3{
+            margin-top: 2rem;
+            text-align: end;
+            margin-right: 1.2rem;
+            font-size: 12px;
+
+            @media only screen and (max-width: 320px){
+                font-size: 10px;
+            }
+        }
+        h2{
+            font-size: 18px;
+            margin-top: .5rem;
+            text-align: end;
+            margin-right: 1.2rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 16px;
+            }
+        }
+        p{
+            width: 90%;
+            font-size: 11px;
+            margin-top: .4rem;
+            margin-right: 1.2rem;
+            text-align: end;
+        }
+        
+    }
+    .img-clinico-geral{
+        margin-top: 2.4rem;
+        margin-left: 1.2rem;
+    
+        @media only screen and (max-width: 320px){
+            margin-top: 2rem;
+            scale: .8;
+        }
+
+        @media only screen and (max-width: 370px){
+            margin-top: 2.8rem;
+            width: 35%;
+        }
+
+    }
+}
+
+.section-orto{
+    display: flex;
+    margin-top: 2.4rem;
+    justify-content: space-between;
+    .orto{
+        h3{
+            margin-top: 2rem;
+            text-align: start;
+            margin-left: 1.4rem;
+            font-size: 12px;
+        }
+        h2{
+            font-size: 20px;
+            margin-top: .5rem;
+            text-align: start;
+            margin-left: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
+        }
+        p{
+            width: 78%;
+            font-size: 12px;
+            margin-top: .4rem;
+            margin-left: 1.4rem;
+            text-align: start;
+
+            span{
+                font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
+            }
+        }
+        
+    }
+    .img-orto{
+        margin-top: 3rem;
+        margin-right: 1.6rem;
+
+        @media only screen and (max-width: 370px){
+            margin-right: 1rem;
+            scale: .95;
+        }
+        @media only screen and (max-width: 320px){
+            margin-top: 4.8rem;
+            scale: .8;
+        }
+    }
+}
+
+.section-buco-maxilo{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 6.2rem;
+    justify-content: space-between;
+
+    .buco-maxilo{
+        h3{
+            margin-top: 2rem;
+            text-align: end;
+            margin-right: 1.6rem;
+            font-size: 12px;
+        }
+        h2{
+            font-size: 20px;
+            margin-top: .5rem;
+            text-align: end;
+            margin-right: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
+            
+        }
+        p{
+            width: 88%;
+            font-size: 12px;
+            margin-top: .4rem;
+            margin-right: 1.6rem;
+            text-align: end;
+
+        @media only screen and (max-width: 320px){
+            margin-top: .8rem;
+            font-size: 10px;
+            }
+        }
+        
+    }
+    .img-buco-maxilo{
+        margin-top: 3rem;
+        margin-left: 1.2rem;
+    
+        @media only screen and (max-width: 320px){
+            margin-top: 4.8rem;
+        }
+    }
+}
+
 .faq{
     justify-content: center;
     align-items: center;
 
     h1{
         font-size: 22px;
-        color: #303030;
+        color: $color-title;
         text-align: center;
         margin-bottom: 1.4rem;
     }
@@ -279,35 +468,92 @@ body{
             margin: 0 1.2rem .5rem 1.2rem;
 
         summary{
+            cursor: pointer;
             font-size: 14px;
             text-align: center;
             letter-spacing: .03rem;
-            border-bottom: 1.5px solid #D74500;
-            border-right: 1.5px solid #D74500;
+            border-bottom: 1.5px solid $primary-color;
+            border-right: 1.5px solid $primary-color;
             box-shadow: 3px 3px 10px rgba(102, 102, 102, 0.15);
             padding: .5rem;
             border-radius: .18rem;
 
+            @media only screen and (max-width: 320px){
+                font-size: 12px;
+            }
+
             &:active{
                 transform: scale(0.95);
+            }
+
+            &:focus{
+                background-color: $primary-color;
+                color: $background
             }
         }
         p{
             margin-top: .6rem;
             font-size: 12px;
-            color: #131313;
+            color: $color-p;
             letter-spacing: .03rem;
             text-align: center;
             border-radius: .2rem;
             padding: .5rem;
-            border: 1px solid #707070;
+            border: 1px solid $color-gray-1-border;
             box-shadow: 0px 1px 10px rgba(65, 65, 65, 0.1);
+        }
+
+        .title-maps-semus{
+            padding: .3rem .8rem;
+            color: $color-title;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 300;
+            border: 1px solid $color-gray-2-border;
+            border-radius: .2rem;
+            margin: 1rem 0;
+
+            &:focus{
+                background-color: $primary-color;
+                border-color: $primary-color;
+                color: $background;
+                border: none;
+            }
+        }
+
+        .link-hiv{
+            font-weight: bold;
+            letter-spacing: 0.050em;
+            background: linear-gradient(352.32deg, rgba(0, 0, 0, 0.2) 4.95%, 
+            rgba(0, 0, 0, 0.02) 121.74%), 
+            linear-gradient(360deg, $primary-color 0%, $secundary-color 125%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 1.4rem;
+            padding: .32rem;
+            border-radius: .28rem;
+            border: 1px solid $primary-color;
+        }
+
+        .padding-bottom-p{
+            padding: 1rem;
         }
     }
 }
 
-
-
+.link-faq{
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.050em;
+    background: linear-gradient(352.32deg, rgba(0, 0, 0, 0.2) 4.95%, 
+    rgba(0, 0, 0, 0.02) 121.74%), 
+    linear-gradient(360deg, $primary-color 0%, $secundary-color 125%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
 
 .hospital-referencia{
     display: flex;
@@ -329,12 +575,41 @@ body{
     }
 }
 
+.maps-3d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    details{
+        text-align: center;
+        color: $primary-color;
+
+        summary{
+            padding: .3rem .8rem;
+            color: $color-title;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 300;
+            border: 1px solid $color-gray-2-border;
+            border-radius: .2rem;
+            margin-bottom: 1rem;
+
+            &:focus{
+                background-color: $primary-color;
+                border-color: $primary-color;
+                color: $background;
+                border: none;
+            }
+        }
+    }
+}
+
 .container-footer{
     display: flex;
     width: 100%;
     height: 3.8rem;
-    margin-top: 2.8rem;
-    background-color: #FFFFFF;
+    margin-top: 1.6rem;
+    background-color: $background-footer;
     justify-content: space-around;
     align-items: center;
 }
@@ -343,13 +618,14 @@ body{
     display: flex;
     width: 100%;
     height: 2rem;
-    background-color: #D74500;
+    background-color: $primary-color;
     justify-content: center;
 
     p{
         font-size: 10px;
         text-align: center;
         line-height: 2rem;
-        color: #EBEBEB;
+        color: $background;
+        opacity: .8;
     }
 }
