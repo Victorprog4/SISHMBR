@@ -66,6 +66,335 @@ h4, h5, p {
     opacity: 1;
   }
 }
+.section-sala-lilas {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.section-sala-lilas .sala-lilas h3 {
+  margin-top: 2rem;
+  text-align: start;
+  margin-left: 1.4rem;
+  font-size: 12px;
+}
+.section-sala-lilas .sala-lilas h2 {
+  font-size: 18px;
+  margin-top: 0.5rem;
+  text-align: start;
+  margin-left: 1.4rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-sala-lilas .sala-lilas h2 {
+    font-size: 18px;
+  }
+}
+.section-sala-lilas .sala-lilas p {
+  width: 80%;
+  font-size: 12px;
+  margin-top: 0.4rem;
+  margin-left: 1.4rem;
+  text-align: start;
+}
+.section-sala-lilas .sala-lilas p span {
+  font-size: 10px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 370px) {
+  .section-sala-lilas .sala-lilas p {
+    margin-top: 0.8rem;
+    font-size: 10px;
+  }
+}
+.section-sala-lilas .img-sala-lilas {
+  width: 141px;
+  height: 158px;
+  margin-top: 2.4rem;
+  margin-right: 1.4rem;
+}
+@media only screen and (max-width: 370px) {
+  .section-sala-lilas .img-sala-lilas {
+    margin-top: 2rem;
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .section-sala-lilas .img-sala-lilas {
+    scale: 0.9;
+  }
+}
+
+.section-aten-pediatrico {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.section-aten-pediatrico .aten-pediatrico h3 {
+  margin-top: 2rem;
+  text-align: end;
+  margin-right: 1.6rem;
+  font-size: 12px;
+}
+.section-aten-pediatrico .aten-pediatrico h2 {
+  font-size: 18px;
+  margin-top: 0.5rem;
+  text-align: end;
+  margin-right: 1.6rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-aten-pediatrico .aten-pediatrico h2 {
+    font-size: 18px;
+  }
+}
+.section-aten-pediatrico .aten-pediatrico p {
+  width: 90%;
+  font-size: 12px;
+  margin-top: 0.4rem;
+  margin-right: 1.6rem;
+  text-align: end;
+}
+.section-aten-pediatrico .aten-pediatrico p span {
+  font-weight: bold;
+}
+@media only screen and (max-width: 370px) {
+  .section-aten-pediatrico .aten-pediatrico p {
+    margin-top: 0.8rem;
+    font-size: 10px;
+  }
+}
+.section-aten-pediatrico .img-aten-pediatrico {
+  width: 171;
+  height: 163;
+  margin-top: 2.4rem;
+  margin-left: 1.2rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-aten-pediatrico .img-aten-pediatrico {
+    margin: 0;
+    scale: 0.8;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .section-aten-pediatrico .img-aten-pediatrico {
+    margin-top: 2.8rem;
+    width: 35%;
+  }
+}
+
+.section-aten-rapido {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.section-aten-rapido .aten-rapido h3 {
+  margin-top: 2rem;
+  text-align: start;
+  margin-left: 1.4rem;
+  font-size: 12px;
+}
+.section-aten-rapido .aten-rapido h2 {
+  font-size: 18px;
+  margin-top: 0.5rem;
+  text-align: start;
+  margin-left: 1.4rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-aten-rapido .aten-rapido h2 {
+    font-size: 18px;
+  }
+}
+.section-aten-rapido .aten-rapido p {
+  width: 80%;
+  font-size: 12px;
+  margin-top: 0.4rem;
+  margin-left: 1.4rem;
+  text-align: start;
+}
+.section-aten-rapido .aten-rapido p span {
+  font-weight: bold;
+}
+@media only screen and (max-width: 370px) {
+  .section-aten-rapido .aten-rapido p {
+    margin-top: 0.8rem;
+    font-size: 10px;
+  }
+}
+.section-aten-rapido .img-aten-rapido {
+  width: 153px;
+  height: 144px;
+  margin-top: 4.8rem;
+  margin-right: 1.6rem;
+}
+@media only screen and (max-width: 370px) {
+  .section-aten-rapido .img-aten-rapido {
+    margin-right: 1rem;
+    scale: 0.95;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .section-aten-rapido .img-aten-rapido {
+    margin-top: 6rem;
+    scale: 0.9;
+  }
+}
+
+.section-clinico-geral {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.section-clinico-geral .clinico-geral h3 {
+  margin-top: 2rem;
+  text-align: end;
+  margin-right: 1.2rem;
+  font-size: 12px;
+}
+@media only screen and (max-width: 320px) {
+  .section-clinico-geral .clinico-geral h3 {
+    font-size: 10px;
+  }
+}
+.section-clinico-geral .clinico-geral h2 {
+  font-size: 18px;
+  margin-top: 0.5rem;
+  text-align: end;
+  margin-right: 1.2rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-clinico-geral .clinico-geral h2 {
+    font-size: 16px;
+  }
+}
+.section-clinico-geral .clinico-geral p {
+  width: 90%;
+  font-size: 11px;
+  margin-top: 0.4rem;
+  margin-right: 1.2rem;
+  text-align: end;
+}
+.section-clinico-geral .img-clinico-geral {
+  width: 169px;
+  height: 110px;
+  margin-top: 2.4rem;
+  margin-left: 1.2rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-clinico-geral .img-clinico-geral {
+    margin-top: 2rem;
+    scale: 0.8;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .section-clinico-geral .img-clinico-geral {
+    margin-top: 2.8rem;
+    width: 35%;
+  }
+}
+
+.section-orto {
+  display: flex;
+  margin-top: 2.4rem;
+  justify-content: space-between;
+}
+.section-orto .orto h3 {
+  margin-top: 2rem;
+  text-align: start;
+  margin-left: 1.4rem;
+  font-size: 12px;
+}
+.section-orto .orto h2 {
+  font-size: 20px;
+  margin-top: 0.5rem;
+  text-align: start;
+  margin-left: 1.4rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-orto .orto h2 {
+    font-size: 18px;
+  }
+}
+.section-orto .orto p {
+  width: 78%;
+  font-size: 12px;
+  margin-top: 0.4rem;
+  margin-left: 1.4rem;
+  text-align: start;
+}
+.section-orto .orto p span {
+  font-weight: bold;
+}
+@media only screen and (max-width: 370px) {
+  .section-orto .orto p {
+    margin-top: 0.8rem;
+    font-size: 10px;
+  }
+}
+.section-orto .img-orto {
+  width: 139px;
+  height: 142px;
+  margin-top: 3rem;
+  margin-right: 1.6rem;
+}
+@media only screen and (max-width: 370px) {
+  .section-orto .img-orto {
+    margin-right: 1rem;
+    scale: 0.95;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .section-orto .img-orto {
+    margin-top: 4.8rem;
+    scale: 0.8;
+  }
+}
+
+.section-buco-maxilo {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 6.2rem;
+  justify-content: space-between;
+}
+.section-buco-maxilo .buco-maxilo h3 {
+  margin-top: 2rem;
+  text-align: end;
+  margin-right: 1.6rem;
+  font-size: 12px;
+}
+.section-buco-maxilo .buco-maxilo h2 {
+  font-size: 20px;
+  margin-top: 0.5rem;
+  text-align: end;
+  margin-right: 1.4rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-buco-maxilo .buco-maxilo h2 {
+    font-size: 18px;
+  }
+}
+.section-buco-maxilo .buco-maxilo p {
+  width: 88%;
+  font-size: 12px;
+  margin-top: 0.4rem;
+  margin-right: 1.6rem;
+  text-align: end;
+}
+@media only screen and (max-width: 320px) {
+  .section-buco-maxilo .buco-maxilo p {
+    margin-top: 0.8rem;
+    font-size: 10px;
+  }
+}
+.section-buco-maxilo .img-buco-maxilo {
+  width: 142px;
+  height: 122px;
+  margin-top: 3rem;
+  margin-left: 1.2rem;
+}
+@media only screen and (max-width: 320px) {
+  .section-buco-maxilo .img-buco-maxilo {
+    margin-top: 4.8rem;
+  }
+}
+
 html {
   background-color: #EBEBEB;
 }
@@ -82,7 +411,6 @@ body {
 .header .logo-hmbr {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   margin-top: 2.5rem;
 }
 @media only screen and (max-width: 370px) {
@@ -97,6 +425,19 @@ body {
     margin-top: 1.5rem;
     margin-right: 2rem;
   }
+}
+
+.texto-linear {
+  margin-top: 4rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.05em;
+  background: linear-gradient(352.32deg, rgba(0, 0, 0, 0.2) 4.95%, rgba(0, 0, 0, 0.02) 121.74%), linear-gradient(360deg, #D74500 0%, #F29100 125%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .text-hero h3 {
@@ -117,19 +458,6 @@ body {
   .text-hero p {
     font-size: 10px;
   }
-}
-
-.texto-linear {
-  margin-top: 4rem;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 0.05em;
-  background: linear-gradient(352.32deg, rgba(0, 0, 0, 0.2) 4.95%, rgba(0, 0, 0, 0.02) 121.74%), linear-gradient(360deg, #D74500 0%, #F29100 125%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .title {
@@ -192,323 +520,6 @@ body {
     width: 90%;
     margin-left: 1.2rem;
     margin-top: 2.4rem;
-  }
-}
-
-.section-sala-lilas {
-  display: flex;
-  margin-top: 2rem;
-  justify-content: space-between;
-}
-.section-sala-lilas .sala-lilas h3 {
-  margin-top: 2rem;
-  text-align: start;
-  margin-left: 1.4rem;
-  font-size: 12px;
-}
-.section-sala-lilas .sala-lilas h2 {
-  font-size: 18px;
-  margin-top: 0.5rem;
-  text-align: start;
-  margin-left: 1.4rem;
-}
-@media only screen and (max-width: 320px) {
-  .section-sala-lilas .sala-lilas h2 {
-    font-size: 18px;
-  }
-}
-.section-sala-lilas .sala-lilas p {
-  width: 80%;
-  font-size: 12px;
-  margin-top: 0.4rem;
-  margin-left: 1.4rem;
-  text-align: start;
-}
-.section-sala-lilas .sala-lilas p span {
-  font-size: 10px;
-  font-weight: bold;
-}
-@media only screen and (max-width: 370px) {
-  .section-sala-lilas .sala-lilas p {
-    margin-top: 0.8rem;
-    font-size: 10px;
-  }
-}
-.section-sala-lilas .img-sala-lilas {
-  margin-top: 2.4rem;
-  margin-right: 1.4rem;
-}
-@media only screen and (max-width: 370px) {
-  .section-sala-lilas .img-sala-lilas {
-    margin-top: 2rem;
-    width: 45%;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .section-sala-lilas .img-sala-lilas {
-    scale: 0.9;
-  }
-}
-
-.section-aten-pediatrico {
-  display: flex;
-  margin-top: 2rem;
-  justify-content: space-between;
-}
-.section-aten-pediatrico .aten-pediatrico h3 {
-  margin-top: 2rem;
-  text-align: end;
-  margin-right: 1.6rem;
-  font-size: 12px;
-}
-.section-aten-pediatrico .aten-pediatrico h2 {
-  font-size: 18px;
-  margin-top: 0.5rem;
-  text-align: end;
-  margin-right: 1.6rem;
-}
-@media only screen and (max-width: 320px) {
-  .section-aten-pediatrico .aten-pediatrico h2 {
-    font-size: 18px;
-  }
-}
-.section-aten-pediatrico .aten-pediatrico p {
-  width: 90%;
-  font-size: 12px;
-  margin-top: 0.4rem;
-  margin-right: 1.6rem;
-  text-align: end;
-}
-.section-aten-pediatrico .aten-pediatrico p span {
-  font-weight: bold;
-}
-@media only screen and (max-width: 370px) {
-  .section-aten-pediatrico .aten-pediatrico p {
-    margin-top: 0.8rem;
-    font-size: 10px;
-  }
-}
-.section-aten-pediatrico .img-aten-pediatrico {
-  margin-top: 2.4rem;
-  margin-left: 1.2rem;
-}
-@media only screen and (max-width: 320px) {
-  .section-aten-pediatrico .img-aten-pediatrico {
-    margin: 0;
-    scale: 0.8;
-  }
-}
-@media only screen and (max-width: 370px) {
-  .section-aten-pediatrico .img-aten-pediatrico {
-    margin-top: 2.8rem;
-    width: 35%;
-  }
-}
-
-.section-aten-rapido {
-  display: flex;
-  margin-top: 2rem;
-  justify-content: space-between;
-}
-.section-aten-rapido .aten-rapido h3 {
-  margin-top: 2rem;
-  text-align: start;
-  margin-left: 1.4rem;
-  font-size: 12px;
-}
-.section-aten-rapido .aten-rapido h2 {
-  font-size: 18px;
-  margin-top: 0.5rem;
-  text-align: start;
-  margin-left: 1.4rem;
-}
-@media only screen and (max-width: 320px) {
-  .section-aten-rapido .aten-rapido h2 {
-    font-size: 18px;
-  }
-}
-.section-aten-rapido .aten-rapido p {
-  width: 80%;
-  font-size: 12px;
-  margin-top: 0.4rem;
-  margin-left: 1.4rem;
-  text-align: start;
-}
-.section-aten-rapido .aten-rapido p span {
-  font-weight: bold;
-}
-@media only screen and (max-width: 370px) {
-  .section-aten-rapido .aten-rapido p {
-    margin-top: 0.8rem;
-    font-size: 10px;
-  }
-}
-.section-aten-rapido .img-aten-rapido {
-  margin-top: 4.8rem;
-  margin-right: 1.6rem;
-}
-@media only screen and (max-width: 370px) {
-  .section-aten-rapido .img-aten-rapido {
-    margin-right: 1rem;
-    scale: 0.95;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .section-aten-rapido .img-aten-rapido {
-    margin-top: 8rem;
-    scale: 0.9;
-  }
-}
-
-.section-clinico-geral {
-  display: flex;
-  margin-top: 2rem;
-  justify-content: space-between;
-}
-.section-clinico-geral .clinico-geral h3 {
-  margin-top: 2rem;
-  text-align: end;
-  margin-right: 1.2rem;
-  font-size: 12px;
-}
-@media only screen and (max-width: 320px) {
-  .section-clinico-geral .clinico-geral h3 {
-    font-size: 10px;
-  }
-}
-.section-clinico-geral .clinico-geral h2 {
-  font-size: 18px;
-  margin-top: 0.5rem;
-  text-align: end;
-  margin-right: 1.2rem;
-}
-@media only screen and (max-width: 320px) {
-  .section-clinico-geral .clinico-geral h2 {
-    font-size: 16px;
-  }
-}
-.section-clinico-geral .clinico-geral p {
-  width: 90%;
-  font-size: 11px;
-  margin-top: 0.4rem;
-  margin-right: 1.2rem;
-  text-align: end;
-}
-.section-clinico-geral .img-clinico-geral {
-  margin-top: 2.4rem;
-  margin-left: 1.2rem;
-}
-@media only screen and (max-width: 320px) {
-  .section-clinico-geral .img-clinico-geral {
-    margin-top: 2rem;
-    scale: 0.8;
-  }
-}
-@media only screen and (max-width: 370px) {
-  .section-clinico-geral .img-clinico-geral {
-    margin-top: 2.8rem;
-    width: 35%;
-  }
-}
-
-.section-orto {
-  display: flex;
-  margin-top: 2.4rem;
-  justify-content: space-between;
-}
-.section-orto .orto h3 {
-  margin-top: 2rem;
-  text-align: start;
-  margin-left: 1.4rem;
-  font-size: 12px;
-}
-.section-orto .orto h2 {
-  font-size: 20px;
-  margin-top: 0.5rem;
-  text-align: start;
-  margin-left: 1.4rem;
-}
-@media only screen and (max-width: 320px) {
-  .section-orto .orto h2 {
-    font-size: 18px;
-  }
-}
-.section-orto .orto p {
-  width: 78%;
-  font-size: 12px;
-  margin-top: 0.4rem;
-  margin-left: 1.4rem;
-  text-align: start;
-}
-.section-orto .orto p span {
-  font-weight: bold;
-}
-@media only screen and (max-width: 370px) {
-  .section-orto .orto p {
-    margin-top: 0.8rem;
-    font-size: 10px;
-  }
-}
-.section-orto .img-orto {
-  margin-top: 3rem;
-  margin-right: 1.6rem;
-}
-@media only screen and (max-width: 370px) {
-  .section-orto .img-orto {
-    margin-right: 1rem;
-    scale: 0.95;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .section-orto .img-orto {
-    margin-top: 4.8rem;
-    scale: 0.8;
-  }
-}
-
-.section-buco-maxilo {
-  display: flex;
-  margin-top: 2rem;
-  margin-bottom: 6.2rem;
-  justify-content: space-between;
-}
-.section-buco-maxilo .buco-maxilo h3 {
-  margin-top: 2rem;
-  text-align: end;
-  margin-right: 1.6rem;
-  font-size: 12px;
-}
-.section-buco-maxilo .buco-maxilo h2 {
-  font-size: 20px;
-  margin-top: 0.5rem;
-  text-align: end;
-  margin-right: 1.4rem;
-}
-@media only screen and (max-width: 320px) {
-  .section-buco-maxilo .buco-maxilo h2 {
-    font-size: 18px;
-  }
-}
-.section-buco-maxilo .buco-maxilo p {
-  width: 88%;
-  font-size: 12px;
-  margin-top: 0.4rem;
-  margin-right: 1.6rem;
-  text-align: end;
-}
-@media only screen and (max-width: 320px) {
-  .section-buco-maxilo .buco-maxilo p {
-    margin-top: 0.8rem;
-    font-size: 10px;
-  }
-}
-.section-buco-maxilo .img-buco-maxilo {
-  margin-top: 3rem;
-  margin-left: 1.2rem;
-}
-@media only screen and (max-width: 320px) {
-  .section-buco-maxilo .img-buco-maxilo {
-    margin-top: 4.8rem;
   }
 }
 

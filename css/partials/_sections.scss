@@ -1,0 +1,329 @@
+.section-sala-lilas{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    .sala-lilas{
+        h3{
+            margin-top: 2rem;
+            text-align: start;
+            margin-left: 1.4rem;
+            font-size: 12px;
+        }
+        h2{
+            font-size: 18px;
+            margin-top: .5rem;
+            text-align: start;
+            margin-left: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
+        }
+        p{
+            width: 80%;
+            font-size: 12px;
+            margin-top: .4rem;
+            margin-left: 1.4rem;
+            text-align: start;
+
+            span{
+                font-size: 10px;
+                font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
+            }
+        }
+        
+    }
+    .img-sala-lilas{
+        width: 141px;
+        height: 158px;
+        margin-top: 2.4rem;
+        margin-right: 1.4rem;
+
+        @media only screen and (max-width: 370px){
+            margin-top: 2rem;
+            width: 45%;
+        }
+        @media only screen and (max-width: 320px){
+            scale: .9;
+        }
+    }
+}
+
+.section-aten-pediatrico{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    .aten-pediatrico{
+        h3{
+            margin-top: 2rem;
+            text-align: end;
+            margin-right: 1.6rem;
+            font-size: 12px;
+        }
+        h2{
+            font-size: 18px;
+            margin-top: .5rem;
+            text-align: end;
+            margin-right: 1.6rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
+        }
+        p{
+            width: 90%;
+            font-size: 12px;
+            margin-top: .4rem;
+            margin-right: 1.6rem;
+            text-align: end;
+
+            span{
+                font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
+            }
+        }
+        
+    }
+    .img-aten-pediatrico{
+        width: 171;
+        height: 163;
+        margin-top: 2.4rem;
+        margin-left: 1.2rem;
+    
+        @media only screen and (max-width: 320px){
+            margin: 0;
+            scale: .8;
+        }
+
+        @media only screen and (max-width: 370px){
+            margin-top: 2.8rem;
+            width: 35%;
+        }
+
+    }
+}
+
+.section-aten-rapido{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    .aten-rapido{
+        h3{
+            margin-top: 2rem;
+            text-align: start;
+            margin-left: 1.4rem;
+            font-size: 12px;
+        }
+        h2{
+            font-size: 18px;
+            margin-top: .5rem;
+            text-align: start;
+            margin-left: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
+        }
+        p{
+            width: 80%;
+            font-size: 12px;
+            margin-top: .4rem;
+            margin-left: 1.4rem;
+            text-align: start;
+
+            span{
+                font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
+            }
+        }
+        
+    }
+    .img-aten-rapido{
+        width: 153px;
+        height: 144px;
+        margin-top: 4.8rem;
+        margin-right: 1.6rem;
+
+        @media only screen and (max-width: 370px){
+            margin-right: 1rem;
+            scale: .95;
+        }
+        @media only screen and (max-width: 320px){
+            margin-top: 6rem;
+            scale: .9;
+        }
+    }
+}
+
+.section-clinico-geral{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+
+    .clinico-geral{
+        h3{
+            margin-top: 2rem;
+            text-align: end;
+            margin-right: 1.2rem;
+            font-size: 12px;
+
+            @media only screen and (max-width: 320px){
+                font-size: 10px;
+            }
+        }
+        h2{
+            font-size: 18px;
+            margin-top: .5rem;
+            text-align: end;
+            margin-right: 1.2rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 16px;
+            }
+        }
+        p{
+            width: 90%;
+            font-size: 11px;
+            margin-top: .4rem;
+            margin-right: 1.2rem;
+            text-align: end;
+        }
+        
+    }
+    .img-clinico-geral{
+        width: 169px;
+        height: 110px;
+        margin-top: 2.4rem;
+        margin-left: 1.2rem;
+    
+        @media only screen and (max-width: 320px){
+            margin-top: 2rem;
+            scale: .8;
+        }
+
+        @media only screen and (max-width: 370px){
+            margin-top: 2.8rem;
+            width: 35%;
+        }
+
+    }
+}
+
+.section-orto{
+    display: flex;
+    margin-top: 2.4rem;
+    justify-content: space-between;
+    .orto{
+        h3{
+            margin-top: 2rem;
+            text-align: start;
+            margin-left: 1.4rem;
+            font-size: 12px;
+        }
+        h2{
+            font-size: 20px;
+            margin-top: .5rem;
+            text-align: start;
+            margin-left: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
+        }
+        p{
+            width: 78%;
+            font-size: 12px;
+            margin-top: .4rem;
+            margin-left: 1.4rem;
+            text-align: start;
+
+            span{
+                font-weight: bold;
+            }
+
+            @media only screen and (max-width: 370px){
+                margin-top: .8rem;
+                font-size: 10px;
+            }
+        }
+        
+    }
+    .img-orto{
+        width: 139px;
+        height: 142px;
+        margin-top: 3rem;
+        margin-right: 1.6rem;
+
+        @media only screen and (max-width: 370px){
+            margin-right: 1rem;
+            scale: .95;
+        }
+        @media only screen and (max-width: 320px){
+            margin-top: 4.8rem;
+            scale: .8;
+        }
+    }
+}
+
+.section-buco-maxilo{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 6.2rem;
+    justify-content: space-between;
+
+    .buco-maxilo{
+        h3{
+            margin-top: 2rem;
+            text-align: end;
+            margin-right: 1.6rem;
+            font-size: 12px;
+        }
+        h2{
+            font-size: 20px;
+            margin-top: .5rem;
+            text-align: end;
+            margin-right: 1.4rem;
+
+            @media only screen and (max-width: 320px){
+                font-size: 18px;
+                }
+            
+        }
+        p{
+            width: 88%;
+            font-size: 12px;
+            margin-top: .4rem;
+            margin-right: 1.6rem;
+            text-align: end;
+
+        @media only screen and (max-width: 320px){
+            margin-top: .8rem;
+            font-size: 10px;
+            }
+        }
+        
+    }
+    .img-buco-maxilo{
+        width: 142px;
+        height: 122px;
+        margin-top: 3rem;
+        margin-left: 1.2rem;
+    
+        @media only screen and (max-width: 320px){
+            margin-top: 4.8rem;
+        }
+    }
+}
